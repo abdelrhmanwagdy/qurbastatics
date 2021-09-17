@@ -69,6 +69,7 @@ module.exports.validateLoginField = (loginField) => {
  * @param  {} resturantName_to_validate
  */
 module.exports.validateRestaurantName = (resturantName_to_validate) => {
+  console.log(resturantName_to_validate);
     return  resturantName_to_validate.length > 2
     ? true
     : false;
@@ -78,6 +79,7 @@ module.exports.validateRestaurantName = (resturantName_to_validate) => {
 * @param  {} address_to_validate
 */
 module.exports.validateAdderss = (address_to_validate) => {
+  console.log(address_to_validate);
   return  address_to_validate.length > 4
     ? true
     : false;
