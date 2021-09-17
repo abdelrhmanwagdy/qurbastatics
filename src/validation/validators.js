@@ -79,7 +79,7 @@ module.exports.validateRestaurantName = (resturantName_to_validate) => {
 * @param  {} address_to_validate
 */
 module.exports.validateAdderss = (address_to_validate) => {
-  return /^[a-zA-Z0-9_.-,]*$/.test(address_to_validate) && address_to_validate.length > 4
+  return /^[A-Za-z0-9 _]*[A-Za-z0-9][A-Za-z0-9 _]*$/.test(address_to_validate) && address_to_validate.length > 4
     ? true
     : false;
 };
