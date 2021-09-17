@@ -1,6 +1,6 @@
 {
   "name": "qurbastatics",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "This package is used to serve Qurba project with static code to be shared across all the projects",
   "main": "src/index.js",
   "scripts": {
